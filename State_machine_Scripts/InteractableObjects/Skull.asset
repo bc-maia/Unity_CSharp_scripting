@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949d519f535aaa4eaa0d95424f832fd, type: 3}
+  m_Name: Skull
+  m_EditorClassIdentifier: 
+  noun: skull
+  description: A weather human skull lies in the corner.
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 3991a84ca28241c4c82c5186603193ec, type: 2}
+    textResponse: The skull is blackned and charred. Gross.
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: f05eb65b741bbbf4b98393005a32d4a8, type: 2}
+    textResponse: You take the skull.
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 6a2fb8afd16ef43409383824f28c67a2, type: 2}
+    textResponse: 
+    actionResponse: {fileID: 11400000, guid: a8f10d18c3eba134384db07867183a14, type: 2}
